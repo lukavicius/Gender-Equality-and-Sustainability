@@ -189,3 +189,38 @@ class Data_Handler:
         df = df[[c for c in cols if c in df.columns]]
 
         return df
+
+    @staticmethod
+    def get_renewable_energy_data(file_path, start_year=1960, end_year=2024):
+        """
+        Reads a World Bank-style CSV and returns a tidy DataFrame
+        with columns: country, year, Renewable energy share.
+        Can filter data between start_year and end_year.
+
+        Args:
+            file_path (str): Path to the CSV file.
+            start_year (int): First year to include (inclusive).
+            end_year (int): Last year to include (inclusive).
+
+        Returns:
+            pd.DataFrame: Tidy DataFrame with filtered years.
+        """
+        # Read the CSV, skipping metadata rows if present
+        df = pd.read_csv(file_path, skiprows=4)  # Adjust if first few rows are metadata
+
+        # Keep only relevant columns for the requested years
+        years = [str(y) for y in range(start_year, end_year + 1)]
+        df = df[['Country Name'] + years]
+
+        # Melt the wide format into long format
+        df_long = df.melt(id_vars=['Country Name'],
+                          var_name='year',
+                          value_name='Renewable energy share')
+
+        # Rename 'Country Name' to 'country'
+        df_long.rename(columns={'Country Name': 'country'}, inplace=True)
+
+        # Convert year to integer
+        df_long['year'] = df_long['year'].astype(int)
+
+        return df_long
