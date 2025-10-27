@@ -1,0 +1,61 @@
+[33mcommit 01cca7a8ab9f1780a2a8f8932c0e65c321c336e0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: mangelicasa <angelica.saglimbeni@student.uva.nl>
+Date:   Sun Oct 26 23:32:08 2025 +0100
+
+    ML preliminary analysis
+
+[33mcommit 535cf87b9e20d76395f44057ddce079bcf06fa03[m
+Author: lukavicius <122887109+lukavicius@users.noreply.github.com>
+Date:   Fri Oct 24 15:55:10 2025 +0200
+
+    Made it nice
+
+[33mcommit 908ccd1bffcb678c5cc92d950d153931bb7addf0[m
+Author: lukavicius <122887109+lukavicius@users.noreply.github.com>
+Date:   Thu Oct 23 12:51:26 2025 +0200
+
+    add preprocessing
+
+[33mcommit 9c83246bd388ed02203e677d40ed6c309b7c1c66[m
+Author: lukavicius <122887109+lukavicius@users.noreply.github.com>
+Date:   Thu Oct 23 09:45:34 2025 +0200
+
+    Revert "Update Project.ipynb"
+    
+    This reverts commit 170a81fae943b92491e6eb98ef02f7cea38c6b57.
+
+[33mcommit 170a81fae943b92491e6eb98ef02f7cea38c6b57[m
+Author: lukavicius <122887109+lukavicius@users.noreply.github.com>
+Date:   Mon Oct 20 17:21:23 2025 +0200
+
+    Update Project.ipynb
+
+[33mcommit f2cfcedb51b384b1369da0b4d8823c87bed9955d[m
+Author: mangelicasa <angelica.saglimbeni@student.uva.nl>
+Date:   Thu Oct 16 19:46:33 2025 +0200
+
+    created country iso
+
+[33mcommit e58b6e2df26e9a7ffaf82afb4b9ba5a6444c65fd[m
+Author: unknown <elena.deckert@gmx.de>
+Date:   Wed Oct 15 14:58:24 2025 +0200
+
+    Added more for the exploratory analysis
+
+[33mcommit 03a0ed01802ea0d8806d1d025ed15d898bba81c2[m
+Author: mangelicasa <angelica.saglimbeni@student.uva.nl>
+Date:   Tue Oct 14 22:46:06 2025 +0200
+
+    Data exploration
+
+[33mcommit fbab14637174409af7c84d1f0c7617d186cae777[m
+Author: lukavicius <122887109+lukavicius@users.noreply.github.com>
+Date:   Mon Oct 13 14:27:09 2025 +0200
+
+    Aggregate data
+
+[33mcommit cb7f497475a556367e5cc9bc3c231f314b85751e[m
+Author: lukavicius <122887109+lukavicius@users.noreply.github.com>
+Date:   Mon Oct 13 09:17:23 2025 +0200
+
+    Completeness analysis
